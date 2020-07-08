@@ -50,7 +50,7 @@ def getListOfFiles(dirName):
 #Gives current directory
 basepath=os.getcwd()
 print("Path: "+basepath)
-sub_elem=str(basepath)+'\\'+'MGP_StimeFabbisogno1'
+sub_elem=str(basepath)+'\\'+'subdir1'
 print(sub_elem)
 
 elem=os.listdir(sub_elem)
